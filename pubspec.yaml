@@ -1,0 +1,55 @@
+name: expense_tracker
+description: Трекер расходов через уведомления Google Pay
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Локальное хранилище (с поддержкой веб)
+  sqflite: ^2.3.0
+  sqflite_common_ffi_web: ^0.4.3
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  
+  # Состояние приложения
+  provider: ^6.1.1
+  
+  # Графики
+  fl_chart: ^0.66.0
+  
+  # Форматирование даты
+  intl: ^0.18.1
+  
+  # Иконки
+  cupertino_icons: ^1.0.6
+  
+  # Анимации
+  flutter_animate: ^4.3.0
+  
+  # Shared preferences
+  shared_preferences: ^2.2.2
+  
+  # Google Fonts
+  google_fonts: ^6.1.0
+  
+  # Для экспорта/импорта данных
+  share_plus: ^10.0.0
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
